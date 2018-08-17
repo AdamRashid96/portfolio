@@ -16,3 +16,4 @@ You will need an activated github account. (Should have already completed this s
 ## Steps
 
 * You should have accepted the assignment at this point. Github will have already created the repository. The next step will be to clone the repository on your local machine.
+* This wasn't on the initial check-in, let's see what haps?
