@@ -15,9 +15,9 @@ You will need an activated github account. (Should have already completed this s
 
 ## Steps
 * You should have accepted the assignment at this point. Github will have already created the repository and linked it to your github account. 
-* Clone the project on your laptop using the [steps below](#Clone-your-project).
+* Clone the project on your laptop using the [steps below](#clone-your-project).
 * Create a new file named `index.html` in the `cs-portfolio-username` directory that was created from your clone step.
-* Update the new index.html file using `sublime` with the template html below and customize it to your liking. Save changes.
+* Update the new index.html file using `sublime` with the [template html below](#index-html-template) and customize it to your liking. Save changes.
 * Perform git check-in steps below 
 
 ### Clone your project
@@ -30,7 +30,7 @@ You will need an activated github account. (Should have already completed this s
 *** `git config user.name "your_username"`
 
 
-### index.html template
+### index html template
 ```
 <!DOCTYPE html>
 <html>
