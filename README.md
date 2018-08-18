@@ -28,10 +28,36 @@ You will need an activated github account. (Should have already completed this s
 * 
 
 ## index.html template
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Title of the document</title>
+  </head>
+<body>
+<p>Not Swett</p>
 
-....template code here
+<p>
+Interesting stuff about me....
+</p>
+<table>
+  <tr><th> Project </th><th> Demo Link </th><th>Code Base Link </th></tr>
+  <tr><td> Frist Proj TBD </td><td> N/A </td><td> N/A </td></tr>
+</table>
+</body>
+</html>
+```
 
-## git "check-in" steps
+## git "check-in" steps:
+Generally, the process looks like:
+Add new files, commit those files for a check-in, push the check-in to the master copy.
+
+Add\Commit\Push
 These are the steps you'll follow for a basic git check-in:
-* git add .
-*
+* Everything new that you've created in the directory: 
+** `git add .` -OR- `git add theSpecificfile.ext`
+* Bundle the added files in a commit:
+** `git commit -m "some message to tag with the check in"`
+* Finally persist your changes to github:
+** `git push`
+*** (You should be prompted to enter your github username and password)
