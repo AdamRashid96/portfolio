@@ -18,7 +18,7 @@ You will need an activated github account. (Should have already completed this s
 * Clone the project on your laptop using the [steps below](#clone-your-project).
 * Create a new file named `index.html` in the `cs-portfolio-username` directory that was created from your clone step.
 * Update the new index.html file using `sublime` with the [template html below](#index-html-template) and customize it to your liking. Save changes.
-* Perform git check-in steps below 
+* Perform git [check-in steps below](#git-check-in-steps) 
 
 ### Clone your project
 * Open powershell and change directory, `cd`, to `c:\users\APCS\java`
@@ -51,7 +51,7 @@ Interesting stuff about me....
 </html>
 ```
 
-### git "check-in" steps:
+### git check-in steps
 Generally, the process looks like:
 Add new files, commit those files for a check-in, push the check-in to the master copy.
 
