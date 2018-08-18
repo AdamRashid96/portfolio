@@ -14,20 +14,23 @@ a short bio about yourself (that you are comfortable being available public on t
 You will need an activated github account. (Should have already completed this step.)
 
 ## Steps
-
-* You should have accepted the assignment at this point. Github will have already created the repository. The next step will be to clone the repository on your local machine.
-* Open powershell and change directory, `cd`, to c:\users\APCS\java
-* Perform a `git clone`, you obtain the clone address from your projects page.
-** change directory into the new directory git created, it should be something like `cs-portfolio-username` 
-** This step only needs to be done once. set the `user.name` and `user.email`. This needs to be done otherwise you won't be able to check code in,
-*** `git config user.emal "youremal@sccs-stu.net"`
-*** `git config user.name "your_username"`
+* You should have accepted the assignment at this point. Github will have already created the repository and linked it to your github account. 
+* Clone the project on your laptop using the [steps below](#Clone-your-project).
 * Create a new file named `index.html` in the `cs-portfolio-username` directory that was created from your clone step.
 * Update the new index.html file using `sublime` with the template html below and customize it to your liking. Save changes.
 * Perform git check-in steps below 
-* 
 
-## index.html template
+### Clone your project
+* Open powershell and change directory, `cd`, to `c:\users\APCS\java`
+* Perform a `git clone`, you obtain the clone address from your projects page.
+** `git clone http:\\github.....`
+** `cd` into the new directory git created, it should be something like `cs-portfolio-username` 
+** This step only needs to be done ONCE. We need to set the `user.name` and `user.email` so git knows who has authored the changes. This needs to be done otherwise you won't be able to commit changes.
+*** `git config user.emal "youremal@sccs-stu.net"`
+*** `git config user.name "your_username"`
+
+
+### index.html template
 ```
 <!DOCTYPE html>
 <html>
@@ -48,7 +51,7 @@ Interesting stuff about me....
 </html>
 ```
 
-## git "check-in" steps:
+### git "check-in" steps:
 Generally, the process looks like:
 Add new files, commit those files for a check-in, push the check-in to the master copy.
 
