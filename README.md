@@ -16,5 +16,22 @@ You will need an activated github account. (Should have already completed this s
 ## Steps
 
 * You should have accepted the assignment at this point. Github will have already created the repository. The next step will be to clone the repository on your local machine.
-* This wasn't on the initial check-in, let's see what haps?
-* student accepted, are there changes now?
+* Open powershell and change directory, `cd`, to c:\users\APCS\java
+* Perform a `git clone`, you obtain the clone address from your projects page.
+** change directory into the new directory git created, it should be something like `cs-portfolio-username` 
+** This step only needs to be done once. set the `user.name` and `user.email`. This needs to be done otherwise you won't be able to check code in,
+*** `git config user.emal "youremal@sccs-stu.net"`
+*** `git config user.name "your_username"`
+* Create a new file named `index.html` in the `cs-portfolio-username` directory that was created from your clone step.
+* Update the new index.html file using `sublime` with the template html below and customize it to your liking. Save changes.
+* Perform git check-in steps below 
+* 
+
+## index.html template
+
+....template code here
+
+## git "check-in" steps
+These are the steps you'll follow for a basic git check-in:
+* git add .
+*
