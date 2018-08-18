@@ -9,6 +9,7 @@ a short bio about yourself (that you are comfortable being available public on t
 1. Introduce you to the git workflow.
 2. Introduce you to some basic HTML.
 3. Create a central location to show off the work you've done for APCS.
+4. Publish a live webpage
 
 ## Prerequisites
 You will need an activated github account. (Should have already completed this step.)
@@ -19,6 +20,7 @@ You will need an activated github account. (Should have already completed this s
 * Create a new file named `index.html` in the `cs-portfolio-username` directory that was created from your clone step.
 * Update the new index.html file using `sublime` with the [template html below](#index-html-template) and customize it to your liking. Save changes.
 * Perform git [check-in steps below](#git-check-in-steps) 
+* Finally, update the github project to use github pages so that you can see it live on the interwebs! [setps below](#publish-your-project)
 
 ### Clone your project
 * Open powershell and change directory, `cd`, to `c:\users\APCS\java`
@@ -64,3 +66,9 @@ These are the steps you'll follow for a basic git check-in:
 * Finally persist your changes to github:
 ** `git push`
 *** (You should be prompted to enter your github username and password)
+
+
+### Publish your project
+Github makes it easy to "webify" your project. If you include a index.html in the root of your project directory then github will serve up the page like a real live boy, no Pinocchio stuff!
+* Click on the settings for you project (this is usually up at the top right of your page with a little gears icon).
+* Scroll down to the GitHub Pages section
