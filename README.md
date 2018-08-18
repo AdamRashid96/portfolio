@@ -72,3 +72,7 @@ These are the steps you'll follow for a basic git check-in:
 Github makes it easy to "webify" your project. If you include a index.html in the root of your project directory then github will serve up the page like a real live boy, no Pinocchio stuff!
 * Click on the settings for you project (this is usually up at the top right of your page with a little gears icon).
 * Scroll down to the GitHub Pages section
+* Select the source location, usually this is `master-branch`
+* Once you select the source location, you will see a message that your site is published along with a URL to the site, e.g.
+** Your site is published at https://jswett77.github.io/someproject/
+* As you complete projects we can update this project to reflect the other programming projects you have completed.
